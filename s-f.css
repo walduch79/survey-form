@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+body{
+     background-color: greenyellow;
+}
+#submit{
+    background-color: blueviolet;
+    color: yellow;
+    width: 600px;
+    height: 110px;
+}
+#end{
+    color: blue;
+}
