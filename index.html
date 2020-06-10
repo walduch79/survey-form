@@ -20,64 +20,69 @@
             Kind regards!!!
           </p>
         </div>
-        <h3>Personal details:</h3>
-        <form id="survey-form">
-            <label name="name" id="name-label">  name</label><br>
-            <input type="text" id="name" placeholder="enter name" required > </input><br>
-            <br>
-            <label name="email" id="email-label">email</label><br>
-            <input type="email"   id="email" placeholder="enter email" required></input><br>
-            <br>
-            <label name="sex" > gender</label><br>
-            <input type="text" name="sex" required ><br>
-            <br>
-            <label for="age" id="number-label">age</label><br>
-            <input type="number" id="number" min="1" max="11000" placeholder="years" required><br>
-            <br>
-            <label id="weight">weight kg</label><br>
-            <input type="number" id="number-kg" placeholder="enter weight" min="20"required><br>
+        <div class="personal-details">
+          <h3>Personal details:</h3>
+           <form id="survey-form">
+                <label name="name" id="name-label">  name</label><br>
+                <input type="text" id="name" placeholder="enter name" required > </input><br>
+                <br>
+                <label name="email" id="email-label">email</label><br>
+                <input type="email"   id="email" placeholder="enter email" required></input><br>
+                <br>
+                <label name="sex" > gender</label><br>
+                <input type="text" name="sex" required ><br>
+                <br>
+                <label for="age" id="number-label">age</label><br>
+                <input type="number" id="number" min="1" max="11000" placeholder="years" required><br>
+                <br>
+                <label id="weight">weight kg</label><br>
+                <input type="number" id="number-kg" placeholder="enter weight" min="20"required><br>
+        </div>
+        <div class="preferences">
+           <h3>Drinking preferences:</h3>
         
-        <h3>Drinking preferences:</h3>
-        
-            <p>1.Have you ever consumed alcohol?</p>
-              <label for="Yes"><input type="radio" name="ever" value="yes">Yes</label>
-              <label for="No"><input type="radio" name="ever" value="no">No</label>
-            <p>2.At what age did you start consuming alcohol?</p>
-              <input type="number" name="age">
-            <p>3.Why did you start consuming alcohol? Pick one</p>
-              <input type="checkbox" value="peer_pressure" id="peer">
-              <label for="peer"> Peer pressure</label>
-              <input type="checkbox" value="curiosity">
-              <label for="curiosity">Curiosity</label>
-              <input type="checkbox" value="bored">
-              <label for="bored"> Because you 'felt like it' (Bored)</label>
-              <input type="checkbox" value="influence">
-              <label for="influence"> Influence of an adult</label>
-            <p>4.Choose which type of alcohol is yours favorite:</p>
-              <label for="buzz">Choose buzz</label>
-              <select id="dropdown" name="buzz" >
-                  <option value="beer">Beer</option>
-                  <option value="wine">Wine</option>
-                  <option value="vodka">Vodka</option>
-                  <option value="gin">Gin</option>
+              <p>1.Have you ever consumed alcohol?</p>
+                 <label for="Yes"><input type="radio" name="ever" value="yes">Yes</label>
+                 <label for="No"><input type="radio" name="ever" value="no">No</label>
+              <p>2.At what age did you start consuming alcohol?</p>
+                 <input type="number" name="age">
+              <p>3.Why did you start consuming alcohol? Pick one</p>
+                 <input type="checkbox" value="peer_pressure" id="peer">
+                 <label for="peer"> Peer pressure</label>
+                 <input type="checkbox" value="curiosity">
+                 <label for="curiosity">Curiosity</label>
+                 <input type="checkbox" value="bored">
+                 <label for="bored"> Because you 'felt like it' (Bored)</label>
+                 <input type="checkbox" value="influence">
+                 <label for="influence"> Influence of an adult</label>
+              <p>4.Choose which type of alcohol is yours favorite:</p>
+                 <label for="buzz">Choose buzz</label>
+                 <select id="dropdown" name="buzz" >
+                    <option value="beer">Beer</option>
+                    <option value="wine">Wine</option>
+                    <option value="vodka">Vodka</option>
+                    <option value="gin">Gin</option>
 
-              </select>
-            <p>5.How often do you drink?</p>  
-               <input type="radio"  name="how_often" value="everyday">everyday<br>
+                 </select>
+             <p>5.How often do you drink?</p>  
+                  <input type="radio"  name="how_often" value="everyday">everyday<br>
                
-               <input type="radio"  name="how_often" value="3-5 a week">3-5 a week<br>
+                  <input type="radio"  name="how_often" value="3-5 a week">3-5 a week<br>
                
-               <input type="radio" name="how_often" value="once a week">once a week<br>
-            <p>6.Do you ever drink to get drunk?</p>  
-               <input type="radio" name="durnk"  value="yes">Yes<br>
-               <input type="radio" name="durnk"  value="No">No<br>
-            <p>7.Have you ever consumed illegal drugs?</p>  
-               <input type="radio"  name="durgs" value="yes">Yes<br>
-               <input type="radio" name="durgs"  value="No">No<br>
-            <p>8.If you answered yes to the previous question, please specify all the drugs that you have taken:</p>  
-               <textarea rows="4" cols="50" name="comment" form="usrform">
-                Enter text here...</textarea><br><br><br>
-                <input type="submit" value="SUBMIT YOUR ANSWERS" id="submit" ><h2 id="end">Thank you!!!</h2> 
+                  <input type="radio" name="how_often" value="once a week">once a week<br>
+             <p>6.Do you ever drink to get drunk?</p>  
+                  <input type="radio" name="durnk"  value="yes">Yes<br>
+                  <input type="radio" name="durnk"  value="No">No<br>
+        </div>
+        <div class="drugs">
+             <p>7.Have you ever consumed illegal drugs?</p>  
+                  <input type="radio"  name="durgs" value="yes">Yes<br>
+                  <input type="radio" name="durgs"  value="No">No<br>
+             <p>8.If you answered yes to the previous question, please specify all the drugs that you have taken:</p>  
+                  <textarea rows="4" cols="50" name="comment" form="usrform">
+                       Enter text here...</textarea><br><br><br>
+          </div>
+                  <input type="submit" value="SUBMIT YOUR ANSWERS" id="submit" ><h2 id="end">Thank you!!!</h2> 
 
         </from>
        
